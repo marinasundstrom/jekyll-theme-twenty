@@ -4,8 +4,11 @@
     border: 0;
     position: relative;
 
-    &:before {
+    &.overlay:before {
         background: url('images/overlay.png');
+    }
+
+    &:before {
         content: '';
         height: 100%;
         left: 0;
