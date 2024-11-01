@@ -1,6 +1,6 @@
 <nav id="nav">
     <ul>
-    {%- for item in include.menu -%}
+        {%- for item in include.menu -%}
         {%- if item.menu[0] -%}
         <li class="submenu {% if item.url == page.url %} current {% endif %}">
             {%- if item.url and item.url != "" -%}
@@ -10,17 +10,18 @@
             {%- endif -%}
             <ul>
                 {%- for subitem in item.menu -%}
-                <li {% if subitem.url == page.url %} class="current" {% endif %}>
+                <li {% if subitem.url==page.url %} class="current" {% endif %}>
                     <a href="{{ subitem.url | absolute_url }}">{{ subitem.title }}</a>
                 </li>
                 {%- endfor -%}
             </ul>
-        {%- else -%}
-        <li {% if item.url == page.url %} class="current" {% endif %}>
+            {%- else -%}
+        <li {% if item.url==page.url %} class="current" {% endif %}>
             <a href="{{ item.url | absolute_url }}">{{ item.title }}</a>
         </li>
         {%- endif -%}
-    {%- endfor -%}
-    {% include language.html %}
+        {%- endfor -%}
+        {% include language.html %}
+        <li style="white-space: nowrap;"><a href="#" class="button primary">Sign Up</a></li>
     </ul>
 </nav>

@@ -2,6 +2,7 @@
 layout: home
 lang-ref: page-home
 title: Jekyll Theme Twenty
+landing: true
 ---
 <!-- Main -->
 <article id="main">
