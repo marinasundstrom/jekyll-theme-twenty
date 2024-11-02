@@ -11,6 +11,15 @@ body {
     /* margin: -0.25rem; */
 }
 
+#header #logo img {
+    margin: 0 15px;
+}
+
+#header.alt img {
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
 #header a {
     line-height: 1; /* Set a standard line height */
 }
