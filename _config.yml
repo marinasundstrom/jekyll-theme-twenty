@@ -83,7 +83,7 @@ plugins:
   - jekyll-seo-tag
 
 # Publication settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://marinasundstrom.github.io/jekyll-theme-twenty" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jekyll-theme-twenty" # the subpath of your site, e.g. /blog
+url: "https://marinasundstrom.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author: apehex
 # Exclude from processing
