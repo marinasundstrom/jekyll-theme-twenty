@@ -4,5 +4,27 @@
 @import "main";
 
 body {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 } 
+
+#header #logo {
+    /* margin: -0.25rem; */
+}
+
+#header a {
+    line-height: 1; /* Set a standard line height */
+}
+
+#header  a span {
+    vertical-align: middle; /* Options: baseline, middle, sub, super, etc. */
+}
+
+#header  a, a span {
+    line-height: 1.2em; /* Or your preferred line height */
+}
+
+#header  a {
+    display: inline-flex;
+    align-items: center; /* Vertically centers all child elements */
+}
+

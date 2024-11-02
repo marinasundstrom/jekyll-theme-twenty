@@ -4,9 +4,9 @@
         <a href="{{ index.html | absolute_url }}">
             {%- if site.logo -%}
             <img src="{{ site.logo | absolute_url }}" width="32" height="32">
-            &nbsp;
+            &nbsp;&nbsp;
             {%- endif -%}
-            {{ site.title }} <span>{% if site.subtitle.size < 16 %} {{ site.subtitle }} {% endif %}</span>
+            {{ site.title }}&nbsp;<span>{% if site.subtitle.size < 16 %} {{ site.subtitle }} {% endif %}</span>
         </a>
     </h1>
     {% include navigation.html menu=include.menu %}
