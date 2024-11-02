@@ -69,6 +69,10 @@ defaults:
     values:
       lang: "fr"
 
+google:
+  analytics:
+    gtag: ""
+
 # Build settings
 permalink: pretty
 markdown: kramdown
